@@ -534,6 +534,7 @@ class Sheets:
             page (int): Which page to return.
             if_version_after (int): only fetch Sheet if more recent version
                 available.
+            level (int): compatibility level
             rows_modified_since: Date should be in ISO-8601 format, for example, rowsModifiedSince=2020-01-30T13:25:32-07:00.
             filter_id (int): Applies the given filter (if accessible by the calling user)
                 and marks the affected rows as "filteredOut": true
@@ -1620,6 +1621,7 @@ class Sheets:
         Args:
             sheet_id (int): Sheet ID
             sort_specifier_obj (SortSpecifier): SortSpecifier object
+            level (int): compatibility level
 
         Returns:
             Sheet

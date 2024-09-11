@@ -69,6 +69,7 @@ class Reports:
             include (list[str]): A comma-separated list of
                 optional elements to include in the response. Valid list values:
                 attachments, discussions, format, objectValue, scope, source, sourceSheets.
+            level (int): compatibility level
 
         Returns:
             Report

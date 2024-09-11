@@ -55,6 +55,7 @@ class Cells:
             page (int): Which page to return.
             include_all (bool): If true, include all results
                 (i.e. do not paginate).
+            level (int): compatibility level
 
         Returns:
             IndexResult
